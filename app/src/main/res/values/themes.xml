@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.EtDemo" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="SpinnerTheme" parent="Widget.AppCompat.Spinner.DropDown">
+        <item name="android:background">@drawable/bg_spinner</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxStrokeColor">#e1e1e1</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+        <item name="hintEnabled">false</item>
+        <item name="helperTextTextAppearance">@style/TextInputLayoutHelperText</item>
+        <item name="errorTextAppearance">@style/TextInputLayoutErrorText</item>
+    </style>
+
+
+
+    <style name="TextInputLayoutHelperText" parent="TextAppearance.Design.HelperText">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+
+    <style name="TextInputLayoutErrorText" parent="TextAppearance.Design.Error">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+
+</resources>
